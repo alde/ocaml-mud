@@ -1,0 +1,3 @@
+(test
+ (name game_test)
+ (libraries base async lib))
