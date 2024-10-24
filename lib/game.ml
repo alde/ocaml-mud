@@ -70,6 +70,5 @@ let move_player echo state player_name direction =
           state
         | Some (_, new_room_id) ->
           player.current_room <- new_room_id;
-          Core.sprintf "Player %s moved %s\n" player_name direction |> echo;
           state))
 ;;
