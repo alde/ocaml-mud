@@ -1,5 +1,5 @@
 (executable
  (name main)
- (libraries base async lib)
+ (libraries base async lib dolog)
  (preprocess
   (pps ppx_jane)))
